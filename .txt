@@ -1,0 +1,20 @@
+Cómo Funciona
+Al abrir la página por primera vez o reiniciar el juego:
+
+Ficha roja en casilla 0.
+Ficha negra en una posición aleatoria entre 10 y 19.
+Dos dados con valores aleatorios.
+Emoji inicial 🤔.
+Al pulsar un dado:
+
+La ficha roja avanza según el valor del dado.
+Se genera un nuevo valor para el dado seleccionado.
+Si la ficha roja coincide con la negra, emoji cambia a 😎.
+Si la ficha roja sobrepasa la negra, emoji cambia a 😢 y la ficha roja desaparece.
+Redirección y control de acceso:
+
+Si se accede a procesar.php directamente o se envían datos inválidos, se redirige a index.php.
+Pruebas
+Juega el juego asegurándote de que las fichas y los emojis cambien correctamente.
+Verifica los casos donde la ficha roja supera la negra o coincide con ella.
+Intenta acceder directamente a procesar.php para probar la redirección.
